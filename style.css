@@ -5,15 +5,23 @@
     font-family: 'Oswald', sans-serif;
 }
 body{
-    background-image: url(/images/night-sky-colorful-3840x2160-12510.jpg);
+    background-image: url(https://e0.pxfuel.com/wallpapers/913/33/desktop-wallpaper-of-stars-and-moon-night-sky-moon.jpg);
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.date a{
+    text-decoration: none;
+    color: white;
+}
+.day a{
+    text-decoration: none;
+    color: white;
+}
 .calender{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    margin: 200px 600px 600px;
+    margin: 20px 600px 600px;
     row-gap: 25px;
     column-gap: 25px;
     font-size: 1.5em;
@@ -21,6 +29,17 @@ body{
     -webkit-backdrop-filter: blur(10px);
     padding: 50px;
     border-radius: 50px;
-    color: white;
-    
+    color: white; 
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 20px;
+    padding-top: 200px;
+    color: transparent;
+    background-image: url(/images/pngtree-powder-smoke-colorful-background-image_2164096.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
